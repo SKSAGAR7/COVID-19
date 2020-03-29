@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.covid">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="COVID19"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5876539995624304~6923648497" />
+        <activity android:name=".City"
+            android:label="City"/>
+        <activity android:name=".WorlWide"
+            android:label="COVID-19 WorldWide"/>
+        <activity android:name=".MainActivity"
+            android:label="Visual Data"/>
+        <activity android:name=".Public"
+            android:label="COVID-19"/>
+        <activity android:name=".MyExpandableListView"
+            android:label="COVID-19 QA"/>
+        <activity android:name=".India"
+            android:label="State"/>
+        <activity
+            android:name=".Home"
+            android:label="Home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Devoloper"
+            android:label="Devoloper"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Credits"
+            android:label="Credits"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Splash"
+            android:label="COVID-19"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

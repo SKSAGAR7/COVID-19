@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.covid.MainActivity">
+    <item
+        android:id="@+id/devoloper"
+        android:orderInCategory="100"
+        android:title="Devoloper"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/credits"
+        android:orderInCategory="100"
+        android:title="Credits"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/feedback"
+        android:orderInCategory="100"
+        android:title="Feedback"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/share"
+        android:orderInCategory="100"
+        android:title="Share"
+        app:showAsAction="never" />
+</menu>
